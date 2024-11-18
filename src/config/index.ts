@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Gastón Montivero — Full Stack Developer",
+  author: "Gastón Eduardo Montivero",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+    "Licenciado en Sistemas, resido en CABA, ARG SA. Me especializo en el desarrollo y mantenimiento de sistemas de web y de escritorio.",
+  lang: "es",
+  siteLogo: "/gaston-montivero.jpeg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Experiencia", href: "#experience" },
+    { text: "Proyectos", href: "#projects" },
+    { text: "Sobre mi", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "www.linkedin.com/in/gaston-montivero-e28" },
+    { text: "Github", href: "https://github.com/gmontivero" },    
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,66 +22,81 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Gastón Montivero",
+    specialty: "Full Stack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Licenciado en Sistemas, resido en Capital Federal, ARG. Me especializo en el desarrollo y mantenimiento de sistemas de web y de escritorio.",
+    email: "gaston.e.montivero@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Ministerio de Producción de La Nación",
+      position: "Desarrollador Backend",
+      startDate: "Abril 2020",
+      endDate: "Diciembre 2024",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Desarrollo y mantenimiento de Sistema Backend API REST, control de usuarios. Integración con clientes internos y externos, Consumo de servicios web externos usando SOAP y API REST.",
+        "Lidere un pequeño equipo para el desarrollo y mantenimiento de un sistema monolítico que maneja expedientes que consume información de Apis externas e internas al organismo.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Ministerio de Transporte de La Nación",
+      position: "Desarrollador",
+      startDate: "Agosto 2018",
+      endDate: "Marzo 2020",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Desarrollo y mantenimiento de sistema Legacy de escritorio empresarial, se disminuyó los errores del sistema teniendo la tasa más baja, también se mejoró la velocidad de proceso administrativo. Se agrego más control sobre las tareas de los usuarios.",
+        "Desarrollo de sistema web, trabajo en equipo con metodologías ágiles, temporalmente estuve a cargo del equipo controlando y haciendo integraciones del código.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Ministerio de Salud de La Rioja",
+      position: "Desarrollador Web",
+      startDate: "Agosto 2012",
+      endDate: "Diciembre 2018",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "Desarrollo web de varios sistemas para el uso de programas provincial sobre control de salud, sistemas orientados a la carga de datos masivos y a los análisis estadísticos.",
+    },
+    {
+      company: "Answer Soft SRL",
+      position: "Desarrollador",
+      startDate: "Enero 2006",
+      endDate: "Mayo 2012",
+      summary:
+        "Desarrollo de sistema de escritorio para comercios, con manejo de ocx y dll externas, módulos de facturación, control de depósitos y sucursales",
+    },
+    {
+      company: "Colegio Médico de La Rioja",
+      position: "Desarrollador",
+      startDate: "Enero 2003",
+      endDate: "Julio 2005",
+      summary:
+        "Desarrollo sistema de escritorio para la carga, control, liquidación y pago de ordenes médicas, manejo de grandes volúmenes de datos mensuales, se logró mejorar los procesos de la institución en un 30%, permitiendo a la empresa mermar un día de trabajo a la semana.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Sistema de Ventas para Pymes",
+      summary: "Sistema de facturación con control de stock y manejo de sucursales.",
+      linkPreview: "http://answersoft.com.ar/",
+      linkSource: "http://answersoft.com.ar/",
+      image: "/answersoft.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Digesto Municipal",
+      summary: "Sitio web institucional con administración para mostrar las actividades del consejo deliberante municipal.",
+      linkPreview: "https://cda.unidad2.com.ar/",
+      linkSource: "https://github.com/gmontivero/digesto",
+      image: "/digesto.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+     Soy un desarrollador de sistemas con 15 años de experiencia en el diseño y desarrollo de aplicaciones web y de escritorio. A lo largo de mi carrera, me he especializado en tecnologías como PHP, JavaScript, Vue.js y Laravel, creando soluciones innovadoras y robustas que se ajustan a las necesidades de los usuarios y las empresas.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+    Mi trayectoria incluye la creación de sistemas escalables, la optimización de procesos existentes y la implementación de interfaces de usuario dinámicas y funcionales. Con un profundo conocimiento en backend, soy capaz de integrar diversas herramientas y frameworks para entregar productos de alta calidad.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/gaston-montivero.jpeg",
   },
 };
 
