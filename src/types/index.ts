@@ -28,6 +28,7 @@ export interface ExperienceProps {
   startDate: string;
   endDate: string;
   summary: string | string[];
+  tecnologies: string[];
 }
 
 export interface ProjectProps {

@@ -2,9 +2,9 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Gastón Montivero — Full Stack Developer",
-  author: "Gastón Eduardo Montivero",
+  author: "Gastón E. Montivero",
   description:
-    "Licenciado en Sistemas, resido en CABA, ARG SA. Me especializo en el desarrollo y mantenimiento de sistemas de web y de escritorio.",
+    "Licenciado en Sistemas, resido en Capital Federal, ARG. Me especializo en el desarrollo y mantenimiento de sistemas de web y de escritorio.",
   lang: "es",
   siteLogo: "/gaston-montivero.jpeg",
   navLinks: [
@@ -38,6 +38,7 @@ export const SITE_CONTENT: SiteContent = {
         "Desarrollo y mantenimiento de Sistema Backend API REST, control de usuarios. Integración con clientes internos y externos, Consumo de servicios web externos usando SOAP y API REST.",
         "Lidere un pequeño equipo para el desarrollo y mantenimiento de un sistema monolítico que maneja expedientes que consume información de Apis externas e internas al organismo.",
       ],
+      tecnologies: ['php.png','laravel-logo.webp', 'laravel-livewire.png','mongodb.png','mysql.png','docker.png','git.png'],
     },
     {
       company: "Ministerio de Transporte de La Nación",
@@ -48,6 +49,7 @@ export const SITE_CONTENT: SiteContent = {
         "Desarrollo y mantenimiento de sistema Legacy de escritorio empresarial, se disminuyó los errores del sistema teniendo la tasa más baja, también se mejoró la velocidad de proceso administrativo. Se agrego más control sobre las tareas de los usuarios.",
         "Desarrollo de sistema web, trabajo en equipo con metodologías ágiles, temporalmente estuve a cargo del equipo controlando y haciendo integraciones del código.",
       ],
+      tecnologies: ['c-sharp.png','vb-file.png','php.png','laravel-logo.webp','postgre.png','mysql.png','git.png'],
     },
     {
       company: "Ministerio de Salud de La Rioja",
@@ -56,6 +58,7 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Diciembre 2018",
       summary:
         "Desarrollo web de varios sistemas para el uso de programas provincial sobre control de salud, sistemas orientados a la carga de datos masivos y a los análisis estadísticos.",
+        tecnologies: ['php.png','postgre.png','js.png','html-5.png'],
     },
     {
       company: "Answer Soft SRL",
@@ -64,6 +67,7 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Mayo 2012",
       summary:
         "Desarrollo de sistema de escritorio para comercios, con manejo de ocx y dll externas, módulos de facturación, control de depósitos y sucursales",
+      tecnologies: ['vb-file.png','mysql.png'],
     },
     {
       company: "Colegio Médico de La Rioja",
@@ -72,6 +76,7 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Julio 2005",
       summary:
         "Desarrollo sistema de escritorio para la carga, control, liquidación y pago de ordenes médicas, manejo de grandes volúmenes de datos mensuales, se logró mejorar los procesos de la institución en un 30%, permitiendo a la empresa mermar un día de trabajo a la semana.",
+      tecnologies: ['fox.png'],
     },
   ],
   projects: [
@@ -100,4 +105,3 @@ export const SITE_CONTENT: SiteContent = {
   },
 };
 
-// #5755ff
