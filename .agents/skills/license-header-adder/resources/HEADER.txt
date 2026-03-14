@@ -1,0 +1,5 @@
+/*
+ * Copyright (c) 2026 Unidad 2.
+ * All rights reserved.
+ * This code is proprietary and confidential.
+ */
